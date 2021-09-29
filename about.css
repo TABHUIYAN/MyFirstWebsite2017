@@ -1,0 +1,122 @@
+/* theme: HTML/ CSS responsive layout
+date: August 2016
+description: a responsive layout in HTML5 and css3
+Author: Tahmina Bhuiyan*/
+/*
+-- TABLE OF CONTENT --
+body 
+a(links)
+header img
+header nav
+main
+article
+sidebar/aside
+footer
+--@media--
+*/
+body{
+    background-color: #000000;
+    color:#FFF3CC;
+    font-size: 78%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.3;
+    text-align: left;
+    background-image: url(images/sunsetwo.jpg);
+    background-position: -200px -150px;
+    margin:0 auto;
+    width:70%;
+    clear:both;  
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited{
+  color:papayawhip;  
+}
+a:hover, a:active{
+    background-color:#FFC615;
+    color:#FFF;
+}
+header nav{
+    background-color: #E57913;
+    background-color: rgba(229,121,19,0.7);
+    height: 40px;
+    border-radius: 5px;/*apply rounded color*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /* apply the round corner in older borwser that would otherwise not support them*/
+}
+header nav ul{
+    list-style:none;
+    margin: 0 auto;
+    
+}
+header nav ul li{
+    float:left;
+    display:inline-table;
+    font-family: 'Open Sans', sans-serif;
+}
+header nav a:link, Header nav a:visited{
+    display:block;
+    padding: 10px 25px;
+    height:20px;
+}
+header nav a:hover, header nav a:active, .active {
+    background-color: #F9AD1D;
+    text-shadow: none;
+}
+header nav ul li, header nav ul li a {
+    border-radius: 5px;/*apply rounded color*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    border-radius: 5px;/*apply rounded color*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: 25px;
+    float: left;
+}
+article{
+     border-radius: 5px;/*apply rounded color*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #E57913;
+    background-color: rgba(229,121,19,0.7);
+    padding:2% 6%;
+    margin-top: 20px;
+    color:lightgoldenrodyellow;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+    border-radius: 5px;/*apply rounded color*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color:black;;
+    width:100%;
+    height: 40px;
+    float: left;
+    margin: 20px auto;
+    background-color: #FFC615;
+}
+footer p{
+    
+    margin:10px 30px;
+    height: 20px;
+    align-content: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    background-color: azure;
+    width:100%;
+}
+h1{
+    font-size: 40px;
+     font-family: 'Lora', serif;
+}
